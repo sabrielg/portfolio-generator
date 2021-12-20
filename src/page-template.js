@@ -1,4 +1,6 @@
-module.exports = (name, github) => {
+module.exports = templateData => {
+    console.log(templateData);
+    
     return `
     <!DOCTYPE html> 
   <html lang="en"> 
